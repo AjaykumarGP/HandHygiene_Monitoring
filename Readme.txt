@@ -1,5 +1,5 @@
 
-########################################## Jetson Nano Pin Configuration ##########################################################################
+#################################### Jetson Nano Pin Configuration ######################################################
 
 Jetson TX1, TX2, AGX Xavier, and Nano development boards contain a 40 pin GPIO header, similar to the 40 pin header in the Raspberry Pi. These GPIOs can be controlled for digital input and output using the Python library provided in the Jetson GPIO Library package. The library has the same API as the RPi.GPIO library for Raspberry Pi in order to provide an easy way to move applications running on the Raspberry Pi to the Jetson board.
 
@@ -27,10 +27,10 @@ GPIO.setup([4,17,27,22,10,9,11,5], GPIO.OUT, initial=GPIO.LOW)
 #pin 23 --> GPIO 11
 #pin 29 --> GPIO 5
 
-########################################## Connectivity ###############################################################################################
+########################################## Connectivity ###################################################################
 Bluetooth Low Energy Beacon(Adafruit Feather nRF52 Bluefruit LE - nRF52832)
 https://www.adafruit.com/product/3406
 
 And Used LoRaWAN - RAK811 LoRa Module for pushing data from local node to centeralized gate way for the report generation for administarter inference.
-#######################################################################################################################################################
+#############################################################################################################################
 
